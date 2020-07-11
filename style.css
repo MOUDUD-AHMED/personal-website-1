@@ -4,6 +4,12 @@ body {
     padding: 0;
 }
 
+body img:hover {
+    transform: scale(1.2);
+    transition: transform 3.5s;
+    cursor: pointer;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -40,6 +46,12 @@ section {
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.link-button:hover {
+   background-image: linear-gradient(lightsalmon, tomato);
+   color: black;
+   font-weight: 700;
 }
 
 .top-banner {
@@ -80,10 +92,7 @@ section {
     margin-left: 22px;
     padding-right:5px;
     box-shadow: 10px 20px 30px dimgray;
-}
-.work-area img:hover {
-    transform: scale(1.5);
-    transition: transform 3s;
+    border-radius: 10px;
 }
 
 #work-1 {
