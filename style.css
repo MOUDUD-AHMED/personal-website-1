@@ -4,12 +4,6 @@ body {
     padding: 0;
 }
 
-body img:hover {
-    transform: scale(1.2);
-    transition: transform 3.5s;
-    cursor: pointer;
-}
-
 h1 {
     font-size: 50px;
 }
@@ -129,4 +123,10 @@ section {
 footer p {
     text-align: center;
     font-size: 14px;
+}
+
+body img:hover {
+    transform: scale(1.2);
+    transition: transform 3.5s;
+    cursor: pointer;
 }
